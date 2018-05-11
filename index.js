@@ -97,8 +97,57 @@ var arr = [['pizza','tacos'], ['sushi','ramen'], ['burrito','nachos']];
     // console.log('nested value index for [j]: ', j)
     console.log(`nested index at i: ${i}, j: ${j}`, '\n')
     console.log(`nested value at [i][j]: ${arr[i][j]}`, '\n')
-    //after we finish the stuff in the 'j' loop we go back to the 'i' loop 
+    //after we finish the stuff in the 'j' loop we go back to the 'i' loop
     //and here i = 1, then we go down again, i, remains at 1, and j = 0, then j = 1
-    //....rinse and repeat, 
+    //....rinse and repeat,
   }
+ }
+
+ // Using nested a for loop, log each food item in the foodArray
+
+// var foodArray = [['pizza','tacos'], ['sushi','ramen'], ['burrito','nachos']];
+
+// for (var i = 0; i < foodArray.length; i++) {
+//   // console.log(foodArray[i])
+//   // console.log("index i:", i)
+//   for (var j = 0; j < foodArray[i].length; j++) {
+//     // console.log("index j:  ", j)
+//     console.log(foodArray[i][j])
+//   }
+// }
+
+// Using nested a for loop, log each brand and log each hero
+
+var heroArray = [
+  {
+    brand: "Marvel",
+    heroes: ["Iron Man", "Captain America"],
+    numberOfMovies: 10
+  },
+  {
+    brand: "DC",
+    heroes: ["Superman", "Batman"],
+    numberOfMovies: 20
+  },
+  {
+    brand: "Manga",
+    heroes: ["All Might", "Goku"],
+    numberOfMovies: 300
+  }
+];
+var totalMovies = 0;
+
+for (let i = 0; i < heroArray.length; i++){
+  if (heroArray[i].brand === "Marvel" || heroArray[i].brand === "DC") {
+    totalMovies += heroArray[i].numberOfMovies
+
+  }
+  // for (let j = 0; j < heroArray[i].heroes.length; j++) {
+  //   // console.log(heroArray[i].heroes[j])
+  // }
 }
+
+console.log(totalMovies)
+
+
+

@@ -4,6 +4,7 @@
 - [X] Label & Describe the components of a for loop
 - [X] Work through example problems
 - [X] What is a nested for loop & when/why would you use it
+- [X] Work through nested loop example problems
 
 ##Resources
 - [Learn: For Loops](https://learn.galvanize.com/content/gSchool/javascript-curriculum/master/10_Syntax/02_Control_Flow.md#for-loops)
