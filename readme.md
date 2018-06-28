@@ -1,14 +1,15 @@
 #for Loops
 
-##Objectives
+## Objectives
 - [X] Label & Describe the components of a for loop
 - [X] Work through example problems
 - [X] What is a nested for loop & when/why would you use it
 - [X] Work through nested loop example problems
 
-##Resources
+## Resources
 - [Learn: For Loops](https://learn.galvanize.com/content/gSchool/javascript-curriculum/master/10_Syntax/02_Control_Flow.md#for-loops)
 - [MDN: For Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+## Please do not edit these replit links - copy and paste the code as needed
 - [replit for loop exercises](https://repl.it/@saxmannjr/HospitableSoulfulRom)
 - [replit for nested for loop](https://repl.it/@saxmannjr/NervousSingleNetframework)
 
